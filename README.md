@@ -3,6 +3,7 @@
 
 This project implements a neural network architecture using separate processes and threads on a multi-core processor. The operating system utilizes inter-process communication through pipes to exchange information, such as weights and biases, between processes. Each layer of the neural network is represented as a separate process, while each neuron within a layer is treated as a separate thread. The system leverages the processing power of multiple cores to parallelize the computation of the neural network.
 
+
 ## Features
 1. **Parallel Processing:** Utilizes multi-core processing to accelerate computation and improve performance.
 2. **Inter-Process Communication:** Uses pipes for efficient information exchange between processes.
@@ -11,6 +12,7 @@ This project implements a neural network architecture using separate processes a
 5. **Synchronization and Resource Management:** Ensures proper synchronization and resource allocation for thread safety.
 6. **Scalability and Performance Optimization:** Optimizes resource utilization for scalability and optimal performance.
 7. **Error Handling and Stability:** Implements robust error handling to maintain stability and reliability.
+
 
 
 ## Problem Statement
@@ -29,6 +31,7 @@ The specific requirements for the implementation are as follows:
 5. During backpropagation, the error signal should be propagated backward through the layers of the network, and the system should update the weights and biases based on the calculated gradients.
 6. Process synchronization, memory management, inter-process communication, thread management, and process scheduling should be implemented efficiently.
 
+
 ## Implementation Details
 
 To meet the project requirements, the implementation utilizes system calls and libraries commonly used in operating system labs, such as `fork()`, `wait()`, pipes (both named and unnamed), the pthread library, mutexes, semaphores, and other relevant constructs.
@@ -41,6 +44,10 @@ Key aspects  considered during the implementation:
 4. Process Synchronization: Synchronizationenter code here primitives, such as semaphores or locks, are used to ensure that only one process accesses shared resources (e.g., weights and biases) at any given time.
 5. Memory Management: The operating system provides mechanisms for memory allocation and deallocation for the neural network processes and threads. Each process and thread has its own memory space to avoid conflicts.
 6. Process Scheduling: The operating system schedules processes and threads efficiently to optimize the training process of the neural network.
+
+
+## Contributors
+<a href="https://github.com/BeastMasterGrinder" > Muhammad Farjad </a>
 
 
 
