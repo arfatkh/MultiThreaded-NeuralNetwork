@@ -47,7 +47,7 @@ Key aspects  considered during the implementation:
 
 
 ## Contributors
-<a href="https://github.com/BeastMasterGrinder" > Muhammad Farjad </a>
+[![Muhammad Farjad ](https://github.com/BeastMasterGrinder.png?size=40)](https://github.com/BeastMasterGrinder)[  BeastMasterGrinder](https://github.com/BeastMasterGrinder)
 
 
 
